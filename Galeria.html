@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería con Lightbox</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="Galeria.html">Galeria</a></li>
+          <li><a href="Audio.html">Audios</a></li>
+          <li><a href="Video.html">Videos</a></li>
+        </ul>
+      </nav>
+    <div class="contenedor">
+      <img src="img/Wave.jpg" alt="Olas">
+    <h1>Galeria✨</h1>
+    <p>Haz clic en una imagen para ampliarla</p>
+  </div>
+  </header>
+
+  <section class="galeria">
+    <img src="img/W2E_1.jpg" alt="Imagen 1">
+    <img src="img/W2E_2.jpg" alt="Imagen 2">
+    <img src="img/W2E_4.jpg" alt="Imagen 3">
+  </section>
+  <section class="galeria">
+    <img src="img/W23_3.jpg" alt="Imagen 1">
+    <img src="img/W2E_5.jpg" alt="Imagen 2">
+    <img src="img/wave to earth.jpg" alt="Imagen 3">
+  </section>
+
+  <div id="lightbox" class="lightbox">
+    <span class="cerrar">&times;</span>
+    <img class="lightbox-contenido" id="imagen-ampliada">
+    <div id="caption"></div>
+  </div>
+
+  <script src="JavaScript/script.js"></script>
+</body>
+</html>
